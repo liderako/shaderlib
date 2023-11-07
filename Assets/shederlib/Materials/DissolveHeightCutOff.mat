@@ -7,14 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Dissolve
-  m_Shader: {fileID: -6465566751694194690, guid: d98e84c45a0ceac4fa557ca9b1348c55,
+  m_Name: DissolveHeightCutOff
+  m_Shader: {fileID: -6465566751694194690, guid: f2fe0a5c1adf6404a9ed16f7a24adee8,
     type: 3}
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _RECEIVE_SHADOWS_OFF
-  - _SURFACE_TYPE_TRANSPARENT
-  m_LightmapFlags: 4
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -37,20 +35,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FillAmount: 0
-    - _HeightCutOff: 0
-    - _NoiceSize: 15
+    - _Dissolve: 1
+    - _IsFill: 0
+    - _NoiceSize: 30
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SizeOutline: 0.03
-    - _isFill: 0
+    - _SizeOutline: 0.05
     m_Colors:
-    - _Color: {r: 16, g: 0.28418767, b: 0, a: 0.85882354}
-    - _ColorOutline: {r: 3.1378343, g: 1.479757, b: 28.51895, a: 0}
-    - _MainColor: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
-    - _OutlineColor: {r: 0.33935553, g: 0.4046958, b: 0.7735849, a: 1}
+    - _MainColor: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
+    - _OutlineColor: {r: 0, g: 2.384314, b: 16, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &7140820425651241295
+--- !u!114 &8759178165474313295
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
