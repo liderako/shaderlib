@@ -7,13 +7,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Dissolve
-  m_Shader: {fileID: -6465566751694194690, guid: d98e84c45a0ceac4fa557ca9b1348c55,
+  m_Name: Shader Graphs_Test
+  m_Shader: {fileID: -6465566751694194690, guid: 2c42b78cc699a0141bc03e2fede8f0bb,
     type: 3}
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _RECEIVE_SHADOWS_OFF
-  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -37,20 +35,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FillAmount: 0.41
-    - _HeightCutOff: 0
-    - _NoiceSize: 15
+    - _CellShading: 190
+    - _OutlinePixel: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SizeOutline: 0.03
-    - _isFill: 1
+    - _value: 16
     m_Colors:
-    - _Color: {r: 16, g: 0.28418767, b: 0, a: 0.85882354}
-    - _ColorOutline: {r: 3.1378343, g: 1.479757, b: 28.51895, a: 0}
-    - _MainColor: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
-    - _OutlineColor: {r: 0.33935553, g: 0.4046958, b: 0.7735849, a: 1}
+    - _OutlineColor: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &7140820425651241295
+--- !u!114 &526489860074739586
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
